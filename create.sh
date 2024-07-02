@@ -21,6 +21,8 @@ admin_password_db = \"$DB_PASS\"
 db_name = \"$DB_NAME\"
 db_server_name = \"$DB_SERVER\"" > terraform.tfvars 
 
+mkdir terraform_state
+
 terraform init
 
 terraform fmt
