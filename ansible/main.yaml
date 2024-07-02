@@ -1,7 +1,7 @@
 - name: Install Nginx and WordPress
   hosts: wordpress
   become: yes
-  gather_facts: false
+  gather_facts: true
   vars_files:
     - group_vars/wordpress.yaml
   roles:
