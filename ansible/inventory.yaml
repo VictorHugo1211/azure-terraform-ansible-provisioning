@@ -1,0 +1,6 @@
+webservers:
+  hosts:
+    wordpress:
+      ansible_host: 
+      ansible_user: 
+      ansible_ssh_private_key_file: 

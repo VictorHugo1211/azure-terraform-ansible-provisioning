@@ -1,0 +1,11 @@
+- name: Install Nginx and WordPress
+  hosts: wordpress
+  become: yes
+  gather_facts: false
+  vars_files:
+    - group_vars/wordpress.yaml
+  roles:
+    - role: nginx
+    - role: mysql
+    - role: wordpress
+
