@@ -2,7 +2,7 @@
 
 VM_ADM="adminuser"
 VM_ADM_PASS="Mudar@1234"
-SSH_KEY="$(pwd)/ssh/default_key"
+SSH_KEY="~/.ssh/id_rsa" #ou coloque o path de uma chave ssh que deseja usar
 DB_SERVER="wordpress-mysql-server-unique"
 DB_USER="dbadmin"
 DB_PASS="Mudar@1234"
